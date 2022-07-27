@@ -10,7 +10,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 catkin_package()
-
+find_package(Eigen3 REQUIRED)
 add_subdirectory(imu_gps_localizer)
 
 include_directories(
